@@ -1,0 +1,65 @@
+📦 EMAIL CAPTURADO [2025-09-16 01:31:35]
+Origem: 127.0.0.1:60374
+Destino: 127.0.0.1:5000
+De: a@gmail.com
+Para: b@gmail.com
+Conteúdo:
+Olá, como vai a vida?
+--------------------------------------------------
+📦 EMAIL CAPTURADO [2025-09-16 02:28:53]
+Origem: 127.0.0.1:62274
+Destino: 127.0.0.1:5000
+De: b@gmail.com
+Para: a@gmail.com
+Conteúdo:
+Olá, minha vida vai ótima, e a sua?
+--------------------------------------------------
+📦 EMAIL CAPTURADO [2025-09-16 02:29:52]
+Origem: 127.0.0.1:62302
+Destino: 127.0.0.1:5000
+De: magna@gmail.com
+Para: erick@gmail.com
+Conteúdo:
+Minhas credenciais são:
+
+magna@gmail.com
+Senh4Incr1v3l
+--------------------------------------------------
+📦 EMAIL CAPTURADO [2025-09-16 02:36:08]
+Origem: 127.0.0.1:62510
+Destino: 127.0.0.1:5000
+De: erick@gmail.com
+Para: magna@gmail.com
+Conteúdo:
+Obrigado, irei encaminhá-las para o email da ibm@empresa.com
+--------------------------------------------------
+📦 EMAIL CAPTURADO [2025-09-16 03:10:42]
+Origem: 127.0.0.1:62750
+Destino: 127.0.0.1:5000
+De: leandro@gmail.com
+Para: equipe@empresa.com
+Conteúdo:
+Seguem minhas credenciais temporárias:
+
+leandro@gmail.com
+SenhaTemp2025
+--------------------------------------------------
+📦 EMAIL CAPTURADO [2025-09-16 03:45:17]
+Origem: 127.0.0.1:62880
+Destino: 127.0.0.1:5000
+De: carla@gmail.com
+Para: hr@empresa.com
+Conteúdo:
+Boa tarde, segue relatório de desempenho do mês.
+--------------------------------------------------
+📦 EMAIL CAPTURADO [2025-09-16 04:12:59]
+Origem: 127.0.0.1:63012
+Destino: 127.0.0.1:5000
+De: bruno@gmail.com
+Para: suporte@empresa.com
+Conteúdo:
+Aqui está minha senha de teste:
+
+bruno@gmail.com
+SenhaBruno123!
+--------------------------------------------------

@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>F-Gmail</title> 
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #1E1E1E;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            background: #2A2A2A;
+            padding: 30px;
+            border-radius: 12px;
+            width: 360px;
+            text-align: center;
+            box-shadow: 0px 0px 15px rgba(250, 35, 92, 0.25);
+            opacity: 0;
+            transform: translateY(40px);
+            animation: fadeUp 0.8s ease forwards;
+        }
+
+        @keyframes fadeUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #FA235C;
+            opacity: 0;
+            transform: scale(0.9);
+            animation: fadeZoom 1s ease forwards 0.3s;
+        }
+
+        @keyframes fadeZoom {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        input, textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+            background: #1E1E1E;
+            color: white;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        input:focus, textarea:focus {
+            box-shadow: 0 0 12px #FA235C;
+            animation: pulse 1.2s infinite alternate;
+        }
+
+        @keyframes pulse {
+            from { box-shadow: 0 0 6px #FA235C; }
+            to { box-shadow: 0 0 14px #FA235C; }
+        }
+
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+
+        button {
+            background: linear-gradient(45deg, #FA235C, #ff4b7d);
+            border: none;
+            padding: 12px;
+            margin-top: 10px;
+            width: 100%;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background-size: 200% 200%;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            animation: gradientMove 3s ease infinite;
+            box-shadow: 0 0 12px #FA235C;
+        }
+
+        @keyframes gradientMove {
+            0% { background-position: left; }
+            50% { background-position: right; }
+            100% { background-position: left; }
+        }
+
+    </style>
+</head> 
+    <body> 
+        
+        <div class="container">
+            <h1>F-Gmail</h1> 
+            <form id="emailForm"> 
+                <input type="text" id="from" placeholder="De (email)" required><br> 
+                <input type="text" id="to" placeholder="Para (email)" required><br> 
+                <textarea id="message" placeholder="Mensagem" required></textarea><br> 
+                <button type="submit">Enviar</button> 
+            </form>
+        </div>
+        
+        <script src="./js/script.js"></script>
+    </body> 
+</html>
